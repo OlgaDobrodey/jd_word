@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+</head>
+<body>
+
+<h1>New product form</h1>
+<p>Enter product form</p>
+
+<form action="/tomcat-quicstart/new-product" method="post">
+    <label for="fid">Product id:</label><br>
+    <input type="text" id="fid" name="product.id" value=""><br>
+    <label for="pname">Product name:</label><br>
+    <input type="text" id="pname" name="product.name" value=""><br>
+    <label for="pdetls">Product details:</label><br>
+    <input type="text" id="pdetls" name="product.details" value=""><br>
+    <label for="pdate">Product date (yyyy-mm-dd):</label><br>
+    <input type="text" id="pdate" name="product.date" value=""><br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
